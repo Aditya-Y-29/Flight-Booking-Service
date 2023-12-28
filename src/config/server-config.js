@@ -7,4 +7,5 @@ dotenv.config({path: envPath})
 
 module.exports={
     PORT: process.env.PORT,
+    FLIGHT_SEARCH_SERVICE: process.env.FLIGHT_SEARCH_SERVICE
 }
